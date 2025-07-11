@@ -38,10 +38,7 @@ teams-assignment-ai/
 ├── .env # Environment variables
 ├── requirements.txt # Python dependencies
 └── README.md
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -65,31 +62,28 @@ Edit
 ```bash
 git clone https://github.com/yourusername/teams-assignment-ai.git
 cd teams-assignment-ai
+```
 2. Install Python Requirements
-bash
-Copy
-Edit
+```
 pip install -r requirements.txt
+```
 3. Setup .env File
 Create a .env file in the backend/ folder:
-
-ini
-Copy
-Edit
+```
 CLIENT_ID=your-microsoft-app-id
 CLIENT_SECRET=your-microsoft-app-secret
 TENANT_ID=your-tenant-id
 REDIRECT_URI=http://localhost:8000/
 OPENAI_API_KEY=your-openai-key
+```
 💡 You can get these credentials by registering your app on Azure Portal.
 
 🧪 How to Use
 CLI Version
-bash
-Copy
-Edit
+```bash
 cd backend
 python main.py
+```
 This will:
 
 Authenticate your account via browser popup
@@ -101,11 +95,11 @@ Use AI to generate content based on the assignment
 Save it as a Word file in the output/ folder
 
 GUI Version (Recommended)
-bash
-Copy
-Edit
+```bash
 cd frontend
 streamlit run app.py
+```
+
 This will launch a local web app where you can:
 
 Fetch assignments
@@ -130,16 +124,13 @@ Install transformers and sentencepiece
 📄 Word Template
 Your Word template must be placed at:
 
-bash
-Copy
-Edit
+```
 templates/assignment_template.docx
+```
 You can design the template using placeholders and standard formatting.
 
 🖥️ Create Standalone App (.exe)
-bash
-Copy
-Edit
+```bash
 pip install pyinstaller
 
 # Create entrypoint
@@ -147,6 +138,7 @@ echo "import os\nos.system('streamlit run frontend/app.py')" > main_gui.py
 
 # Build executable
 pyinstaller --onefile main_gui.py
+```
 Your .exe file will be in dist/.
 
 🔐 Permissions Required in Azure App

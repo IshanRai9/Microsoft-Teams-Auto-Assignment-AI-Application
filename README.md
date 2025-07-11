@@ -19,24 +19,23 @@ An AI-powered automation tool that integrates with Microsoft Teams to fetch your
 ```
 teams-assignment-ai/
 │
-├── backend/ # Core logic
-│ ├── graph_auth.py # Handles Microsoft Graph authentication
-│ ├── assignment_fetcher.py # Fetches Teams assignments
-│ ├── ai_generator.py # AI-based content generation
-│ ├── word_generator.py # Word document creation
-│ └── main.py # CLI runner
+├── backend/ 
+│ ├── graph_auth.py 
+│ ├── assignment_fetcher.py 
+│ ├── ai_generator.py 
+│ ├── word_generator.py 
+│ └── main.py 
 │
 ├── templates/
-│ └── assignment_template.docx # Word template file
+│ └── assignment_template.docx 
 │
-├── output/ # Auto-generated Word documents
+├── output/ 
 │
-├── frontend/ # Streamlit GUI
-│ ├── app.py # Streamlit app
-│ └── style.css # (Optional) Custom styling
-│
-├── .env # Environment variables
-├── requirements.txt # Python dependencies
+├── frontend/ 
+│ ├── app.py 
+│ └── style.css 
+├── .env
+├── requirements.txt
 └── README.md
 ```
 

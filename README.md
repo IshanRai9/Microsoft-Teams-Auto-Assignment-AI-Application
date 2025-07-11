@@ -176,5 +176,5 @@ This project is free and open-source under the MIT License.
 PRs and suggestions are welcome! Please open issues for bugs or improvements.
 
 📬 Contact
-Made by Your Name
-📧 your.email@example.com
+Made by Ishan Rai
+📧 ishanrai1109@gmail.com

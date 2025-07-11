@@ -16,7 +16,7 @@ An AI-powered automation tool that integrates with Microsoft Teams to fetch your
 ---
 
 ## 📁 Project Structure
-
+```
 teams-assignment-ai/
 │
 ├── backend/ # Core logic
